@@ -1,0 +1,46 @@
+# Django specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.swp
+.env
+venv/
+node_modules/
+*.sqlite3
+
+# React specific
+# Ignore node_modules for the React frontend
+node_modules/
+
+# Build output for React
+/build/
+dist/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Django migrations
+/migrations/
+
+# Frontend build directories (for Next.js or Create React App)
+.next/
+out/
+
+# Ignore dependency lock files (Optional, if you want)
+# package-lock.json
+# yarn.lock
